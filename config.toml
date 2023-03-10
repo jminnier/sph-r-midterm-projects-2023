@@ -1,0 +1,289 @@
+# Site settings
+baseURL = "/"
+languageCode = "en-us"
+title = "OHSU/PSU SPH BSTA504 Midterm Projects 2022"
+theme = "forty"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Enter your disqus shortname to enable comments
+disqusShortname = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "OHSU/PSU BSTA 504 Midterm Projects 2023"
+  description = "Midterm Projects for OHSU/PSU School of Public Health R Programming Course"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "public"]
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Navigation Section
+  [params.navigation]
+    title = ""
+    subtitle = ""
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Home"
+      url = "#"
+
+    #[[params.navigation.links]]
+    #  name = "Blog"
+    #  url = "blogs"
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+    # Button Style 1
+    #[[params.navigation.button1]]
+    #  name = "Get Started"
+    #  url = "blogs"
+
+    # Button Style 2
+    #[[params.navigation.button2]]
+    #  name = "Log In"
+    #  url = "#"
+
+
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "OHSU/PSU BSTA 504 Midterm Projects 2023"
+    subtitle = "Midterm Projects for OHSU/PSU School of Public Health R Programming Course"
+
+
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    [[params.tiles.showcase]]
+      title = "South Koren TV Shows on Netflix"
+      subtitle = "Abe Ahn"
+      url = "midterm/midterm_ahn.html"
+
+    
+    [[params.tiles.showcase]]
+      title = "Neutrophil/lymphocyte ratio and platelet/lymphocyte ratio in NHANES"
+      subtitle = "Alisha Bruton"
+      url = "midterm/midterm_bruton.html"
+
+    [[params.tiles.showcase]]
+      title = "Animal Bites"
+      subtitle = "Karla Cordova Nicolas"
+      url = "midterm/midterm_cordova_nicolas.html"
+
+    [[params.tiles.showcase]]
+      title = "Vaccination Rates in Schools"
+      subtitle = "Ingrid Jennings"
+      url = "midterm/midterm_jennings.html"
+    
+    [[params.tiles.showcase]]
+      title = "Art History MoMA exhibition vs textbook space"
+      subtitle = "Farzana Karim"
+      url = "midterm/midterm_karim.html"
+
+    [[params.tiles.showcase]]
+      title = "Heart Disease Lifestyle Risk FActors"
+      subtitle = "Puthyda Keath"
+      url = "midterm/midterm_keath.html"
+    
+    [[params.tiles.showcase]]
+      title = "Avocado Sales and Cost"
+      subtitle = "Sifora Lebeneh"
+      url = "midterm/midterm_lebeneh.html"
+    
+    [[params.tiles.showcase]]
+      title = "Severe Drought in the Western US"
+      subtitle = "Haemin Lee"
+      url = "midterm/midterm_lee.html"
+
+    [[params.tiles.showcase]]
+      title = "Rental Prices vs Number of Bathrooms in SF"
+      subtitle = "Qian Leng"
+      url = "midterm/midterm_leng.html"
+
+    [[params.tiles.showcase]]
+      title = "Pet Cats' Hunting Behavior"
+      subtitle = "Jenna Marie"
+      url = "midterm/midterm_marie.html"
+
+    [[params.tiles.showcase]]
+      title = "Collegiate Soccer Spending"
+      subtitle = "Haley Miller"
+      url = "midterm/midterm_miller.html"
+            
+    [[params.tiles.showcase]]
+      title = "Art History: Race Representation in Textbooks"
+      subtitle = "Hoda Mohammed"
+      url = "midterm/midterm_mohammed.html"
+
+    [[params.tiles.showcase]]
+      title = "UFO Sightings"
+      subtitle = "Katy Rabe"
+      url = "midterm/midterm_rabe.html"
+
+    [[params.tiles.showcase]]
+      title = "Career Prospects by Private vs Public Colleges"
+      subtitle = "Ramya Ramesh"
+      url = "midterm/midterm_ramesh.html"
+      
+    [[params.tiles.showcase]]
+      title = "Value of Cars by Ownership"
+      subtitle = "Olivia Reynolds"
+      url = "midterm/midterm_reynolds.html"
+      
+    [[params.tiles.showcase]]
+      title = "Bird Feeders and Animal Visits"
+      subtitle = "Alexandra Shonk"
+      url = "midterm/midterm_shonk.pdf"
+
+    [[params.tiles.showcase]]
+      title = "Hotel Reservation Cancellations"
+      subtitle = "Kellen Stark"
+      url = "midterm/midterm_stark.html"
+
+      
+    [[params.tiles.showcase]]
+      title = "Birthweight by Insurance Type"
+      subtitle = "Kalera Stratton"
+      url = "midterm/midterm_stratton.html"
+      
+    [[params.tiles.showcase]]
+      title = "Billboard Top 100, Rise and Fall of Pop Music"
+      subtitle = "Brendon Tran"
+      url = "midterm/midterm_tran.html"
+
+    [[params.tiles.showcase]]
+      title = "Coffee Ratings by Budget"
+      subtitle = "Stamatia Vafeas"
+      url = "midterm/midterm_vafeas.html"
+
+    [[params.tiles.showcase]]
+      title = "Chocolate Ratings"
+      subtitle = "Felicia Zhou"
+      url = "midterm/midterm_zhou.html"
+
+
+
+
+
+    # You can make more showcases by copy and pasting the code above
+
+  [params.blog]
+    # All blogs defined in their own files. You can find example blogs
+    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    # To add more blogs just copy and paste the code.
+
+  # Section Type Two
+  [params.two]
+    enable = false
+    title = "Massa libero"
+    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
+    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
+    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
+    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    buttonText = "Get Started"
+    url = "blogs"
+
+
+  # Contact section
+  [params.contact]
+    enable = true
+    buttonSend = "Send message"
+    buttonClear = "Clear"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    #title = "Email"
+    #email = "tedladeras (at) gmail.com"
+
+    [[params.contact.phone]]
+    #title = "Phone"
+    #phone = "(000) 000-0000 x1234"
+
+    [[params.contact.address]]
+    #title = "Address"
+    #street = "3181 SW Sam Jackson Road"
+    #city = "Portland, OR 97212"
+    #country = "USA"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    #copyright = "Ted Laderas"
+
+    # Uses font awesome icons
+    #[[params.footer.social]]
+    #  icon = "fa-twitter"
+    #  url= "https://www.twitter.com/tladeras"
+    #  label = "Twitter"
+
+    #[[params.footer.social]]
+     # icon = "fa-facebook"
+      #url= "https://www.facebook.com"
+      #label = "Facebook"
+
+    #[[params.footer.social]]
+     # icon = "fa-instagram"
+      #url= "https://www.instagram.com"
+      #label = "Instagram"
+    
+    #[[params.footer.social]]
+    #  icon = "fa-github"
+    #  url= "https://www.github.com/laderast"
+    #  label = "GitHub"
+
+    #[[params.footer.social]]
+    #  icon = "fa-linkedin"
+    #  url= "https://www.linkedin.com/in/ted-laderas-0714a92/"
+    #  label = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Course Website: "
+      url= "https://sph-r-programming-2022.netlify.app/"
+      alt = "OHSU SPH BSTA 504 Website"
